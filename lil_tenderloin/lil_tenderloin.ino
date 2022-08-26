@@ -50,7 +50,6 @@ void setup() {
   animationSelector = random(0, 6);
 }
 
-
 void loop() {
   switch (animationSelector) {
     case 0:
@@ -97,7 +96,7 @@ void sparkleAnimation() {
   fillOuterRed();
   fillInnerWhite();
 
-  for (long i = 0; i < 3; i++) {
+  for (long i = 0; i < 2; i++) {
     outer.setPixelColor(random(0, OUTER_COUNT), 0, 0, 0, 255);
   }
 
